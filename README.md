@@ -1,29 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>瓜子の小窝</title>
+  <title>瓜子的主页</title>
+  <style>
+    body { text-align: center; padding: 50px; }
+    img { width: 150px; border-radius: 50%; }
+    .links a { margin: 10px; text-decoration: none; }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>瓜子的个人网站</h1>
-    </header>
-    <nav>
-        <!-- 导航菜单 -->
-    </nav>
-    <main>
-        <section>
-            <h2>关于我</h2>
-            <p>这里是个人简介...</p>
-        </section>
-        <section>
-            <h2>我的作品</h2>
-            <p>展示个人项目...</p>
-        </section>
-    </main>
-    <footer>
-        <p>版权所有 &copy; 2023</p>
-    </footer>
+  <img src="your-photo.jpg" alt="头像">
+  <h1>我是瓜子</h1>
+  <p>一名热爱摸鱼的学生</p>
+  <div class="links">
+    <a href="https://github.com/yourname">GitHub</a>
+    <a href="mailto:your@email.com">联系我</a>
+  </div>
 </body>
 </html>
